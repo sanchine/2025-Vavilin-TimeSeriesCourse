@@ -103,7 +103,7 @@ def mplot2d(x: np.ndarray, y: np.ndarray, plot_title: str = None, x_title: str =
     fig.show(renderer="colab")
 
 
-def plot_bestmatch_data(ts: np.ndarrray, query: np.ndarray) -> None:
+def plot_bestmatch_data(ts: np.ndarray, query: np.ndarray) -> None:
     """
     Visualize the input data (time series and query) for the best match task
 
@@ -149,7 +149,7 @@ def plot_bestmatch_data(ts: np.ndarrray, query: np.ndarray) -> None:
     fig.show(renderer="colab")
 
 
-def plot_bestmatch_results(ts: np.ndarrray, query: np.ndarrray, bestmatch_results: dict) -> None:
+def plot_bestmatch_results(ts: np.ndarray, query: np.ndarray, bestmatch_results: dict) -> None:
     """
     Visualize the best match results
 
@@ -163,7 +163,7 @@ def plot_bestmatch_results(ts: np.ndarrray, query: np.ndarrray, bestmatch_result
     # INSERT YOUR CODE
 
 
-def pie_chart(labels: np.ndarrray, values: np.ndarrray, plot_title='Pie chart') -> None:
+def pie_chart(labels: np.ndarray, values: np.ndarray, plot_title='Pie chart') -> None:
     """
     Build the pie chart
 
